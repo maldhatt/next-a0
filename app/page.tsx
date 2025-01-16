@@ -14,13 +14,14 @@ export default function Home() {
             height={37}
             priority
           />
-          <Image
+          {/* <Image
             src="/auth0.svg"
             alt="Auth0 Logo"
             width={180}
             height={37}
             priority
-          />
+          /> */}
+          <span className="text-5xl font-bold">Auth0</span>
         </div>
         
         <h1 className="text-4xl font-bold text-center mb-4">
