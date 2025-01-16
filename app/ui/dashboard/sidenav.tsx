@@ -25,7 +25,7 @@ export default function SideNav() {
 
         {/* Logout button */}
         <div className="p-4">
-          <Button variant="outline" className="w-full flex items-center justify-center">
+          <Button variant="outline" className="w-full flex items-center justify-center font-mono">
             <LogOut className="mr-2 h-4 w-4" />
             Logout
           </Button>
